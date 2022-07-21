@@ -9,11 +9,9 @@ body {
   color: var(--main-color);
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 1.7;
+  line-height: 1.7;
 }
 
 .logo {
