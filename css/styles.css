@@ -7,12 +7,12 @@
 
 body {
   color: var(--main-color);
-  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
+/*Logo*/
 
 .logo {
   color: var(--brand-color);
@@ -33,18 +33,16 @@ body {
   color: var(--extra-color);
 }
 
-/*Check сategory nav and header*/
+/*Header*/
+
 .header {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.header-nav,
-.header-info {
+.list {
   list-style: none;
 }
 
@@ -52,3 +50,59 @@ body {
   text-decoration: none;
   color: var(--main-color);
 }
+
+.link:hover {
+  color: var(--brand-color);
+}
+
+/*Hero*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--extra-color);
+  background-color: #2f303a;
+}
+
+.hero-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--extra-color);
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
+/*Features*/
+
+.features-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-item-text {
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/*Work*/
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Team*/
